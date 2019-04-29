@@ -9,7 +9,7 @@ class Pokemon
     @db = db
   end 
     
-    def self.save
-      @@all
+    def save
+      @@all << self
     end 
 end
