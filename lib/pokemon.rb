@@ -13,5 +13,7 @@ class Pokemon
       @@all << self
     end 
     
-    def self.find
+    def self.find_by_id(id)
+      @@all.detect{|pokemon| pokemon.id = id}
+    end 
 end
