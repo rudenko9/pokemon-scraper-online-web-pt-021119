@@ -10,6 +10,7 @@ attr_accessor :id, :name, :type, :db
     
     def self.save(name, type, db)
       
+      
     end 
     
     def self.find_by_id(id)
