@@ -9,10 +9,10 @@ attr_accessor :id, :name, :type, :db
   end 
     
     def self.save
-      @@all << self
+      
     end 
     
     def self.find_by_id(id)
-      @@all.detect{|pokemon| pokemon.id = id}
+     
     end 
 end
